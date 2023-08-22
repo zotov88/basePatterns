@@ -1,8 +1,9 @@
 package creational.factory;
 
-public class JavaDeveloper {
+public class JavaDeveloper implements Developer {
 
-    public void writeJavaCode() {
+    @Override
+    public void writeCode() {
         System.out.println("Writes java code");
     }
 }
