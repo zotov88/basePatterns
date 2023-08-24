@@ -1,11 +1,12 @@
 package patterns.structural.composite;
 
-import java.util.LinkedList;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class Composite implements Shape {
 
-    private final List<Shape> components = new LinkedList<>();
+    private final List<Shape> components = new ArrayList<>();
 
     public void addComponent(Shape component) {
         components.add(component);
