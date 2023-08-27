@@ -2,5 +2,5 @@ package patterns.structural.flyweight;
 
 public interface Developer {
 
-    void writeCode();
+    void writeCode(IDE ide);
 }
