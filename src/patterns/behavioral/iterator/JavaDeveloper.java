@@ -1,5 +1,7 @@
 package patterns.behavioral.iterator;
 
+import java.util.*;
+
 public class JavaDeveloper implements Collection {
 
     private String name;
